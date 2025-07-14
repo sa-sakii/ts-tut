@@ -1,0 +1,13 @@
+GET http://localhost:3000/api/patients
+
+###
+POST http://localhost:3000/api/patients
+Content-Type: application/json
+
+{
+    "name": "Ibuki Mioda", 
+    "dateOfBirth": "2001-08-17",
+    "gender": "female",
+    "occupation": "Professional Guitarist",
+    "ssn": "541013-11A"
+}

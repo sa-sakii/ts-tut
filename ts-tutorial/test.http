@@ -1,0 +1,12 @@
+GET http://localhost:3003/hello
+
+###
+GET http://localhost:3003/bmi?height=175&weight=71
+
+###
+POST http://localhost:3003/exercises
+Content-Type: application/json 
+
+{
+    "exerciseArray": [1, 0, 1, 1, 1, 1, 1]
+}

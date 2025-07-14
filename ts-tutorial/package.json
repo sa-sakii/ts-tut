@@ -1,0 +1,24 @@
+{
+  "name": "ts-tut",
+  "version": "1.0.0",
+  "description": "tutorial on TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts-node": "ts-node",
+    "start": "ts-node index.ts",
+    "dev": "ts-node-dev index.ts"
+  },
+  "author": "Shakti",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.12",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
