@@ -69,7 +69,7 @@ const EntryForm = ({ entries, setEntries }: EntryFormProps) => {
                 }
                 <div>
                     date:
-                    <input type="text" value={date} onChange={(event) => setDate(event.target.value)} />
+                    <input type="date" value={date} onChange={(event) => setDate(event.target.value)} />
                 </div>
                 <div>
                     weather:
