@@ -7,6 +7,7 @@ export const NewEntrySchema = z.object({
     gender: z.enum(Gender),
     occupation: z.string(), 
     ssn: z.string(),
+    entries: z.array(z.any()).default([])
 })
 const toNewPatientEntry = (object: unknown): NewPatientEntry => {
     return NewEntrySchema.parse(object);
